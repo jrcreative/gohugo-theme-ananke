@@ -18,3 +18,17 @@
 .nested-links a{
   overflow-wrap: break-word;
 }
+
+blockquote {
+	font-weight: 800;
+	font-size: 120%;
+}
+
+.bg-top {
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+	transition: all 300ms ease-in-out;
+}
+
+.bg-top:hover {
+	clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+}
